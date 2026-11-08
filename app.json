@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "KiloFuel",
+    "slug": "kilofuel-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "kilofuel",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0f172a"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kilofuel.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0f172a"
+      },
+      "package": "com.kilofuel.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
+

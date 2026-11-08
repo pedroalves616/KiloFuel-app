@@ -1,0 +1,28 @@
+# Expo & React Native
+.expo/
+dist/
+web-build/
+node_modules/
+expo-env.d.ts
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Environment
+.env
+.env*.local
+!.env.example
+
+# AI Agents, Skills & Internal Setup Docs
+/.agents
+/.skills
+*.agent.md
+KILOFUEL_APP_SETUP.md
+
+# macOS
+.DS_Store
+*.tsbuildinfo
