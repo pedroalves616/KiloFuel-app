@@ -17,12 +17,6 @@ npm-debug.*
 .env*.local
 !.env.example
 
-# AI Agents, Skills & Internal Setup Docs
-/.agents
-/.skills
-*.agent.md
-KILOFUEL_APP_SETUP.md
-
 # macOS
 .DS_Store
 *.tsbuildinfo
